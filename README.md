@@ -58,7 +58,7 @@ WHERE login_time >= '2022-05-09';
 
 The number of login attempts made from 2022-05-09 onward was **165**. 
 
-Task 2. Retrieve login attempts after a certain date
+## Task 2. Retrieve login attempts after a certain date
 In this task, I needed to narrow the focus of my search. I needed to exclude login attempts made after 2022-05-11. To achieve this, I used the BETWEEN and AND operators to return results between '2022-05-09' and '2022-05-11':
 ```sql
 SELECT *
@@ -70,7 +70,7 @@ WHERE login_time BETWEEN '2022-05-09' AND '2022-05-11';
 
 **123** login attempts were made between 2022-05-09 and 2022-05-11.
 
-Task 3. Investigate logins at certain times
+## Task 3. Investigate logins at certain times
 In this task, I needed to investigate logins that occurred at specific times. To begin, I needed to filter the data in the login_attempts table by login time (login_time).
 
 First, our organization's typical work hours begin at 07:00:00. I'd need to retrieve all login attempts made before 07:00:00 to understand more about the users who are logging in outside of these typical hours.
@@ -100,7 +100,7 @@ This query will select all rows from the login_attempts table where the time com
 
 The earliest login attempt was at **06:01:31**.
 
-Task 4. Investigate logins by event ID
+## Task 4. Investigate logins by event ID
 In the final task, I needed to investigate login attempts based on event ID numbers. For this query, I wanted to retrieve only the event_id, username, and login_date fields from the login_attempts table.
 
 To filter for login attempts with event_id greater than or equal to 100, I wrote:
