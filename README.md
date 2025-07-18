@@ -117,5 +117,14 @@ This query selects all columns (*) from the login_attempts table where the event
 
 The username of the seventh result is tmitchel.
 
-Conclusion
-The objective of this project was to apply SQL querying skills to investigate a recent security incident by filtering and analyzing login data stored in a MariaDB database. The tasks involved retrieving specific records based on date, time, and event ID criteria using various SQL operators and functions. By completing these tasks, I demonstrated my skills in data filtering, date and time handling, range queries, and an overall ability to handle real-world data-related workloads pertinent to a cybersecurity analyst's job.
+## Conclusion
+
+The objective of this project was to apply SQL querying skills to investigate a recent security incident by filtering and analyzing login data stored in a MariaDB database. 
+
+Throughout the investigation, I used SQL to:
+- Retrieve login attempts based on specific dates and time ranges
+- Filter logins before business hours to identify unusual access
+- Analyze login attempts based on event ID ranges
+- Practice advanced filtering using operators like `BETWEEN`, `>=`, and `TIME()`
+
+This hands-on experience highlights my ability to handle real-world data analysis in a cybersecurity context. It also demonstrates my comfort working with MariaDB, SQL syntax, and investigative thinking needed for identifying threats.
