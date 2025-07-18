@@ -40,6 +40,7 @@ To gather login attempts after `2022-05-09`:
 SELECT * 
 FROM login_attempts 
 WHERE login_time > '2022-05-09';
+```
 
 <img width="1920" height="864" alt="Fig 1" src="https://github.com/user-attachments/assets/d46a262c-f617-4749-8165-ca6d21cf50bf" />
 
